@@ -83,6 +83,7 @@ function playerChoiceFunction() {
     } else {
       game = false
       console.log('Invalid Choice!')
+      restart();
     }
   }
 
